@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+body {
+    animation: fade 3s 1, border-colors 1s 1;
+    border: 40px solid black;
+    background-color: rgb(199, 0, 139) ;
+    border-radius: 2px;
+
+}
+header {
+    margin-top: 100px;
+    display:block;
+    font-family:'Russo One';
+    font-size: 140px;
+    text-align: center;
+    animation: opac 2s 1;
+}
+
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.picture-box {
+    flex-grow: 0;
+    margin:20px;
+    background-color: black;
+    height:400px;
+    width:250px; 
+    background-position: center;
+    background-size:340px 420px ;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: black 5px solid;
+    border-radius: 10px;
+    animation: opac 2s 1;
+}
+.nameplate {
+    opacity: 0%;
+    font-family: 'Russo One';
+    font-size: 30px;
+    margin: 10px;
+    flex-grow:0;
+    width:250px;
+    text-align: center;
+}
+.one {
+
+}
+.one:hover{
+    border-width: 5px;
+    border-style: double;
+    border-color:aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F77%2Fcf%2Fb9%2F77cfb9e5a801378d8f17de0809f0feb2.jpg&f=1&nofb=1");
+}
+.one:hover~#dodger{
+    opacity: 100%;
+    color:aquamarine
+}
+.two:hover {
+    border-width: 5px;
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.BAzjwrAyBVfsXgzYnxYcIgHaJ3%26pid%3DApi&f=1") ;
+}
+.two:hover~#slasher{
+    opacity: 100%;
+    color:aquamarine
+}
+.three:hover {
+    border-width: 5px;
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F28%2Fc0%2F9d%2F28c09d951f8894821ace592aede85c85.jpg&f=1&nofb=1");
+}
+.three:hover~#jane{
+    opacity: 100%;
+    color:aquamarine
+}
+.four:hover {
+    border-width: 5px;
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F9f%2F48%2F1a%2F9f481a7f69cb50da8f9fd70676455f61.jpg&f=1&nofb=1");
+}
+.four:hover~#dani{
+    opacity: 100%;
+    color:aquamarine
+}
+.five:hover {
+    border-color: aquamarine;
+    border-style: double;
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F2f%2F75%2F9a%2F2f759aac319278eeb257823504c0480f.png&f=1&nofb=1");
+    border-width: 5px;
+}
+.five:hover~#angel{
+    opacity: 100%;
+    color:aquamarine
+}
+.six:hover {
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F8f%2Fce%2F7b%2F8fce7b4d44f1a4a9cb3ea60e213c8392.jpg&f=1&nofb=1");
+}
+.six:hover~#exo{
+    opacity: 100%;
+    color:aquamarine
+}
+.seven:hover {
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fbd%2Fd6%2Ffb%2Fbdd6fb27a24c632119e55199efed6e21--dishonored--cyberpunk-art.jpg&f=1&nofb=1");
+}
+.seven:hover~#daemon {
+    opacity: 100%;
+    color:aquamarine
+}
+.eight:hover {
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F45%2Ff6%2F3e%2F45f63ecab5970ce0e18fdb7d615d2f3f.jpg&f=1&nofb=1");
+}
+.eight:hover~#favion {
+    opacity: 100%;
+    color:aquamarine
+}
+.nine:hover {
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F51%2Fde%2F14%2F51de14decf3151b64fb82814918060ad.jpg&f=1&nofb=1");
+}
+.nine:hover~#jack{
+    opacity: 100%;
+    color:aquamarine
+}
+.ten:hover {
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F66.media.tumblr.com%2F79dfc85dd1365e47fbb48c3cb233fcd2%2Ftumblr_os5vqee4nN1sshs72o1_1280.jpg&f=1&nofb=1");
+}
+.ten:hover~#bastard{
+    opacity: 100%;
+    color:aquamarine
+}
+.eleven:hover {
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd4%2F4f%2F0b%2Fd44f0bac82954af99db42a5aeb6d1d5b.jpg&f=1&nofb=1");
+}
+.eleven:hover~#tenchu {
+    opacity: 100%;
+    color:aquamarine
+}
+.twelve:hover {
+    border-style: double;
+    border-color: aquamarine;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.curiousdoodle.com%2Fwp-content%2Fuploads%2F2019%2F06%2Fstreet_invader_photography004.jpg&f=1&nofb=1");
+}
+.twelve:hover~#johnny {
+    opacity: 100%;
+    color:aquamarine
+}
+/* .item:hover {
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px 420px;
+
+}  */
+
+
+@keyframes fade {
+    0%   {background: black;} 
+    100%  {background: rgb(199, 0, 139);}
+    /* 100%  {background: black;} */
+  } 
+
+@keyframes colors {
+0%   {color: rgb(199, 0, 139);}
+100%  {color: black;}
+/* 100%  {color: rgb(238, 0, 238);} */
+} 
+@keyframes border-colors {
+0%   {border: rgb(199, 0, 139) 0px solid;}
+100%  {border: black 40px solid;}
+/* 100%  {border: rgb(238, 0, 238) 5px solid;} */
+} 
+
+@keyframes opac {
+    0% {opacity: 0%}
+    100% {opacity: 100%}
+}
